@@ -1,0 +1,7 @@
+[
+  { "materia": "Matematica", "voto": 7 },
+  { "materia": "Italiano", "voto": 8 },
+  { "materia": "Scienze", "voto": 7.5 },
+  { "materia": "Storia", "voto": 7 },
+  { "materia": "Tecnologie", "voto": 8 }
+]

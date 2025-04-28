@@ -1,0 +1,14 @@
+{
+  "name": "registro-voti",
+  "version": "1.0.0",
+  "description": "Sito per registrare voti scolastici",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ejs": "^3.1.6",
+    "express-session": "^1.17.2"
+  }
+}

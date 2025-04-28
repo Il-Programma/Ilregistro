@@ -1,0 +1,301 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #fff5f5 0%, #fed7d7 100%);
+  min-height: 100vh;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-box {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.login-header h1 {
+  color: #2c3e50;
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.login-header h2 {
+  color: #34495e;
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.login-header h3 {
+  color: #7f8c8d;
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.input-group {
+  margin-bottom: 1.5rem;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+  font-weight: 500;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.login-button {
+  width: 100%;
+  padding: 1rem;
+  background: #e53e3e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-button:hover {
+  background: #c53030;
+}
+
+/* Stili per il dashboard */
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  color: #e53e3e;
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header h2 {
+  color: #666;
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+.dashboard-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 30px 0;
+}
+
+.nav-item {
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(229, 62, 62, 0.1);
+  border-radius: 12px;
+  text-decoration: none;
+  color: #2d3748;
+  text-align: center;
+  transition: all 0.2s ease;
+  backdrop-filter: blur(5px);
+}
+
+.nav-item:hover {
+  background: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border-color: #e53e3e;
+}
+
+.clock-container {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1.5rem;
+}
+
+.calendar {
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-header {
+  font-size: 1.2rem;
+  color: #e53e3e;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.calendar-day-header {
+  font-size: 0.9rem;
+  color: #666;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.calendar-day {
+  padding: 8px;
+  text-align: center;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.calendar-day:hover {
+  background: rgba(229, 62, 62, 0.1);
+}
+
+.calendar-day.empty {
+  background: none;
+}
+
+.calendar-day.today {
+  background: #e53e3e;
+  color: white;
+  font-weight: bold;
+}
+
+#clock {
+  font-size: 2rem;
+  color: #e53e3e;
+  margin-bottom: 10px;
+}
+
+#date {
+  color: #666;
+}
+
+.grades-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.grades-table th, .grades-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.grades-table th {
+  background: #e53e3e;
+  color: white;
+}
+
+.grades-table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.average-row {
+  background: #ffebee !important;
+  font-size: 1.1em;
+}
+
+.no-notes {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #666;
+  margin: 40px 0;
+}
+
+.settings-notice {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #666;
+  margin: 40px 0;
+}
+
+.home-button {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  text-align: center;
+  background: #e53e3e;
+  color: white !important;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.home-button:hover {
+  background: #c53030 !important;
+  color: white !important;
+}
+
+.content {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(229, 62, 62, 0.1);
+}
+
+.attendance-summary {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  border: 1px solid #e9ecef;
+}
+
+.attendance-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.attendance-table th, .attendance-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.attendance-table th {
+  background: #e53e3e;
+  color: white;
+}
+
+.attendance-table tr:nth-child(even) {
+  background: #f9f9f9;
+}
